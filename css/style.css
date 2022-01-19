@@ -127,6 +127,10 @@ footer p {
     text-align: center;
     padding: 10px 0;
 }
+footer p a {
+    text-decoration: none;
+    color: #fff;
+}
 
 @media screen and (max-width:800px) {
     .info-wrapper {
