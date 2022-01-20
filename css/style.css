@@ -143,6 +143,9 @@ footer p a {
     .box h2{
         font-size: 60px;
     }
+    textarea{
+        margin: 10px;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -150,5 +153,13 @@ footer p a {
         grid-template-columns: repeat(1, 1fr);
         gap: 40px;
       }
+    textarea{
+        width: 70vw;
+        height: 60vh;
+        margin: 10px;
+    }
+    .text-wrapper h1{
+        width: 60vw;
+    }
 }
 
